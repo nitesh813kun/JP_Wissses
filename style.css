@@ -1,0 +1,212 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #6a4361;
+    color: white;   
+    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+.para{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.3rem;
+    padding: 0 18% 50px;
+}
+
+
+.butten-style{
+    height: 60px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4 );
+    background-size: 400%;
+    border: none;
+}
+
+.butten-style:hover
+{
+    animation: animate 8s linear infinite;
+
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+
+h1{
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4 );
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1
+{
+    animation: animate 9s linear infinite;
+
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+@media(max-width: 850px){
+    .heading{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 600px){
+    .heading{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 500px){
+    .heading{
+        font-size: 2.2rem;
+    }
+    .para{
+        font-size: 1.1rem;
+    }
+    .butten-style{
+        width: 150px;
+        font-size: 1.2rem;
+    }
+}
+ */
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    background: url('image/bg5.jpg') no-repeat bottom center fixed;
+    background-size: cover;
+}
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin-bottom: 50px;
+    position: relative;
+    top: -80px; /* Adjust this value to move the heading further up */
+}
+
+.para {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.3rem;
+    padding: 0 10% 30px;
+
+    position: relative;
+    /* background-color: #f441a5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -80px; /* Adjust this value to move the paragraph further up */
+}
+
+.button-box {
+    position: relative;
+    top: -80px; /* Adjust this value to move the button further up */
+}
+
+.butten-style {
+    height: 60px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border: none;
+}
+
+.butten-style:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+h1 {
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 9s linear infinite;
+}
+
+@media (max-width: 850px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .heading {
+        font-size: 2.2rem;
+    }
+    .para {
+        font-size: 1.1rem;
+    }
+    .butten-style {
+        width: 150px;
+        font-size: 1.2rem;
+    }
+}
